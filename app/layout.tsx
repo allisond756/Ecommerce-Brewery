@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Unbounded } from "next/font/google";
 import "./globals.css";
+import ResponsiveNav from "./components/Navigation/ResponsiveNav";
 
 const unbounded = Unbounded({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={unbounded.className}>
-        
+        <ResponsiveNav />
         {children}
       </body>
     </html>
