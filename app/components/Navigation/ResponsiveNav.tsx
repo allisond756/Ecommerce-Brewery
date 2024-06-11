@@ -1,13 +1,13 @@
 import React from 'react'
 import Nav from "./Nav"
-import MoblieNav from "./MoblieNav"
+import MobileNav from "./MobileNav"
 
 const ResponsiveNav = () => {
     return (
         <div>
             <div>
                 <Nav />
-                {/* <MoblieNav /> */}
+                <MobileNav />
             </div>
         </div>
     )
