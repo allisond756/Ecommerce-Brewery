@@ -5,7 +5,11 @@ import { HiOutlineShoppingCart } from "react-icons/hi";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { RiBeerFill } from "react-icons/ri";
 
-const Nav = () => {
+interface Props {
+    openNav: () => void;
+}
+
+const Nav = ({openNav}: Props) => {
     return (
         <div className="h-[12vh] bg-white">
             <div className="sm:w-[90%] w-[95%] mx-auto flex h-[100%] items-center justify-between">
@@ -41,7 +45,7 @@ const Nav = () => {
                         <span>
                             <HiOutlineShoppingCart className="w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]" />
                         </span>
-                        <span className="font-medium text-nowrap sm:hidden xs:hidden">
+                        <span className="font-medium text-nowrap hidden md:flex lg:flex xl:flex">
                             Order Now
                         </span>
                     </button>
@@ -49,7 +53,10 @@ const Nav = () => {
                       flex items-center rounded-md text-white">
                         <BiShoppingBag className="w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]" />
                     </button>
-                    <HiBars3BottomRight className="lg:hidden w-[2rem] h-[2rem] text-black" />
+                    <HiBars3BottomRight 
+                        onClick={openNav}
+                        className="lg:hidden w-[2rem] h-[2rem] text-black" 
+                    />
                 </div>
             </div>
         </div>
