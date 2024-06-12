@@ -15,7 +15,7 @@ const Nav = ({openNav}: Props) => {
             <div className="sm:w-[90%] w-[95%] mx-auto flex h-[100%] items-center justify-between">
                 {/** Logo */}
                 <div className="flex items-center space-x-1">
-                    <RiBeerFill className="w-[1.2rem] h-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-amber-400" />
+                    <RiBeerFill className="w-[1.2rem] h-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-amber-500" />
                     <h1 className="text-[20px] sm:text-[30px] font-semibold">
                         BismuthBrewing
                     </h1>
@@ -40,8 +40,8 @@ const Nav = ({openNav}: Props) => {
                 </ul>
                 {/** buttons */}
                 <div className="flex items-center space-x-4">
-                    <button className="px-4 py-2 sm:px-8 sm:py-3 text-[14px] sm:text-[14px] bg-sky-900 
-                        transition-all duration-200 hover:bg-sky-700 flex items-center rounded-md space-x-2 text-white">
+                    <button className="px-4 py-2 sm:px-8 sm:py-3 text-[14px] sm:text-[14px] bg-orange-700 
+                        transition-all duration-200 hover:bg-orange-500 flex items-center rounded-md space-x-2 text-white">
                         <span>
                             <HiOutlineShoppingCart className="w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]" />
                         </span>
@@ -49,7 +49,7 @@ const Nav = ({openNav}: Props) => {
                             Order Now
                         </span>
                     </button>
-                    <button className="sm:px-8 sm:py-3 px-4 py-2 hover:bg-yellow-300 transition-all duration-200 bg-amber-400
+                    <button className="sm:px-8 sm:py-3 px-4 py-2 hover:bg-sky-400 transition-all duration-200 bg-sky-700
                       flex items-center rounded-md text-white">
                         <BiShoppingBag className="w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]" />
                     </button>
