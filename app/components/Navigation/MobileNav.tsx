@@ -19,7 +19,7 @@ const MobileNav = ({closeNav,showNav}:Props) => {
         className="absolute top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-white" 
       />
       {/** Nav div */}
-      <div className= {`bg-emerald-800 ${navStyle} transition-all duration-500 delay-200 flex flex-col items-center
+      <div className= {`bg-lime-800 ${navStyle} transition-all duration-500 delay-200 flex flex-col items-center
       justify-center w-[70%] h-[100%]`}>
         {/** Nav links */}
         <ul className="space-y-10">
