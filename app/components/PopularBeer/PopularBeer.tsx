@@ -28,7 +28,7 @@ const PopularBeer = () => {
             <h1 className="heading">
                 Popular <span className="text-amber-600"> Beers</span>
             </h1>
-            <div className="w-[80%] mt-[4rem] mx-auto">
+            <div className="w-[90%] mt-[4rem] mx-auto">
                 <Carousel 
                     additionalTransfrom={0} 
                     arrows={true} 
@@ -42,58 +42,76 @@ const PopularBeer = () => {
                 >
                     {/* Popular Beer Card */}
                     <BeerCard 
-                        title="beer" 
+                        title="Lundy Pale Ale"
+                        manufacturer="Harbour Brewing Company"
                         image="/images/b1.png" 
                         reviews="6"
-                        price="$7.00"
+                        price="$4.00"
+                        abv="3.8%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Fader Juicy IPA"
+                        manufacturer="Laine Brew Co." 
                         image="/images/b2.png" 
-                        reviews="6"
-                        price="$7.00"
+                        reviews="17"
+                        price="$6.00"
+                        abv="5.1%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Curve Ball IPA" 
+                        manufacturer="Brewdog"
                         image="/images/b3.png" 
-                        reviews="6"
+                        reviews="8"
                         price="$7.00"
+                        abv="7.4%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Hazy Jane Guava" 
+                        manufacturer="Brewdog"
                         image="/images/b4.png" 
-                        reviews="6"
-                        price="$7.00"
+                        reviews="21"
+                        price="$6.00"
+                        abv="5%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Pecan & Toffee Stout" 
+                        manufacturer="Brewdog"
                         image="/images/b5.png" 
-                        reviews="6"
+                        reviews="9"
                         price="$7.00"
+                        abv="7%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Level Head IPA" 
+                        manufacturer="Green King Brewery"
                         image="/images/b6.png" 
-                        reviews="6"
-                        price="$7.00"
+                        reviews="33"
+                        price="$4.00"
+                        abv="4%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Harbour/Stohk IPA" 
+                        manufacturer="Harbour Brewing Company"
                         image="/images/b7.png" 
-                        reviews="6"
+                        reviews="10"
                         price="$7.00"
+                        abv="7.1%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Bigmouth Session IPA" 
+                        manufacturer="Yeastie Boys"
                         image="/images/b8.png" 
-                        reviews="6"
-                        price="$7.00"
+                        reviews="28"
+                        price="$4.00"
+                        abv="4.5%"
                     />
                     <BeerCard 
-                        title="beer" 
+                        title="Between Land & Sea" 
+                        manufacturer="Harbour Brewing Company"
                         image="/images/b9.png" 
-                        reviews="6"
-                        price="$7.00"
+                        reviews="5"
+                        price="$6.00"
+                        abv="6%"
                     />
                 </Carousel>
             </div>
