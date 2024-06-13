@@ -36,13 +36,13 @@ const Hero = () => {
             infinite
             responsive={responsive}
             itemClass="item"
-            showDots={true}
+            showDots={false}
         >
             <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col
             bg-lime-950 clip_path">
                 <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
                     {/** Hero Img */}
-                    <Image src={BeerImg1} alt="pint glass filled with beer" />
+                    <Image src={BeerImg1} alt="pint glass filled with beer" className="hidden md:block" />
                     {/** Hero info */}
                     <div>
                         <h1 className="text-[35px] font-semibold text-amber-500">Superior Selection of</h1>
@@ -58,7 +58,7 @@ const Hero = () => {
                         <span>
                             <HiOutlineShoppingCart className="w-[1.7rem] h-[1.7rem]" />
                         </span>
-                        <span className="font-medium text-nowrap hidden md:flex lg:flex xl:flex">
+                        <span className="font-medium text-nowrap">
                             Order Now
                         </span>
                     </button>
@@ -68,10 +68,10 @@ const Hero = () => {
 
             {/** 2nd Hero img */}
             <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col
-            bg-lime-950 clip_path">
+            bg-red-950 clip_path">
                 <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
                     {/** Hero Img */}
-                    <Image src={BeerImg2} alt="pint glass filled with beer"/>
+                    <Image src={BeerImg2} alt="pint glass filled with beer" className="hidden md:block" />
                     {/** Hero info */}
                     <div>
                         <h1 className="text-[35px] font-semibold text-amber-500">Tasty Terpenes in</h1>
@@ -87,7 +87,7 @@ const Hero = () => {
                         <span>
                             <HiOutlineShoppingCart className="w-[1.7rem] h-[1.7rem]" />
                         </span>
-                        <span className="font-medium text-nowrap hidden md:flex lg:flex xl:flex">
+                        <span className="font-medium text-nowrap">
                             Order Now
                         </span>
                     </button>
