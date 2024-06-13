@@ -11,3 +11,7 @@
         font-bold text-gray-900 md:leading-[4rem] leading-[3rem] text-center
     }
 }
+
+.popular-beer-carousel {
+    @apply p-4
+}
