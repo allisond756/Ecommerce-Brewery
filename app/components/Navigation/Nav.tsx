@@ -32,9 +32,6 @@ const Nav = ({openNav}: Props) => {
                         <Link href='/'>Menu</Link>
                     </li>
                     <li className="text-[20px] font-medium hover:text-lime-600">
-                        <Link href='/'>Blog</Link>
-                    </li>
-                    <li className="text-[20px] font-medium hover:text-lime-600">
                         <Link href='/'>Contact</Link>
                     </li>
                 </ul>

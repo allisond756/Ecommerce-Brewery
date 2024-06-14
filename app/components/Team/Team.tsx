@@ -12,16 +12,16 @@ const Team = () => {
                 <TeamCard 
                     image="/images/brewer-1.jpg" 
                     name="John Doe" 
-                    position="Assistant Brewer" 
+                    position="Asst. Brewer" 
                 />
                 <TeamCard 
                     image="/images/brewer-2.jpg" 
-                    name="Jane Do" 
-                    position="Assistant Brewer" 
+                    name="James Do" 
+                    position="Asst. Brewer" 
                 />
                 <TeamCard 
                     image="/images/brewer-3.jpg" 
-                    name="Jenna Dough" 
+                    name="Jen Dough" 
                     position="Head Brewer" 
                 />
             </div>

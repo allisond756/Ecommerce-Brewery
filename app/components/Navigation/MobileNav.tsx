@@ -33,9 +33,6 @@ const MobileNav = ({closeNav,showNav}:Props) => {
             <Link href='/'>Menu</Link>
           </li>
           <li className="text-[35px] font-medium hover:text-lime-600">
-            <Link href='/'>Blog</Link>
-          </li>
-          <li className="text-[35px] font-medium hover:text-lime-600">
             <Link href='/'>Contact</Link>
           </li>
       </ul>

@@ -30,27 +30,29 @@ const Hero = () => {
         <Carousel 
             additionalTransfrom={0} 
             arrows={false} 
-            // autoPlay={true} 
-            // autoPlaySpeed={6000} 
+            autoPlay={true} 
+            autoPlaySpeed={6000} 
             centerMode={false}
             infinite
             responsive={responsive}
             itemClass="item"
             showDots={false}
         >
-            <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col
+            <div className="w-[100%] h-[88vh] sm:h-[75vh] flex items-center justify-center flex-col
             bg-lime-950 clip_path">
                 <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
                     {/** Hero Img */}
                     <Image 
                         src={BeerImg1} 
                         alt="pint glass filled with beer" 
-                        className="hidden md:block" 
+                        className="hidden md:block xl:p-[5rem] " 
                     />
                     {/** Hero info */}
                     <div>
-                        <h1 className="text-[35px] font-semibold text-amber-500">Superior Selection of</h1>
-                        <h1 className="text-[90px] leading-[5rem] uppercase text-white font-bold">
+                        <h1 className="text-[27px] lg:text[35px] font-semibold text-amber-500">
+                            Superior Selection of
+                        </h1>
+                        <h1 className="text-[65px] lg:text-[90px]  leading-[5rem] uppercase text-white font-bold">
                             Superb <br /> Sips
                         </h1>
                         <p className="mt-[.5rem] text-white text-opacity-70 text-[16px]">
@@ -59,27 +61,33 @@ const Hero = () => {
                         </p>
                         <button className="mt-[2rem] px-8 py-3 text-[14px] bg-orange-700 transition-all 
                           duration-200 hover:bg-orange-500 flex items-center rounded-md space-x-2 text-white">
-                        <span>
-                            <HiOutlineShoppingCart className="w-[1.7rem] h-[1.7rem]" />
-                        </span>
-                        <span className="font-medium text-nowrap">
-                            Order Now
-                        </span>
-                    </button>
+                            <span>
+                                <HiOutlineShoppingCart className="w-[1.7rem] h-[1.7rem]" />
+                            </span>
+                            <span className="font-medium text-nowrap">
+                                Order Now
+                            </span>
+                        </button>
                     </div>
                 </div>
             </div>
 
             {/** 2nd Hero img */}
-            <div className="w-[100%] h-[88vh] flex items-center justify-center flex-col
+            <div className="w-[100%] h-[88vh] sm:h-[75vh] flex items-center justify-center flex-col
             bg-red-950 clip_path">
                 <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
                     {/** Hero Img */}
-                    <Image src={BeerImg2} alt="pint glass filled with beer" className="hidden md:block" />
+                    <Image 
+                        src={BeerImg2} 
+                        alt="pint glass filled with beer" 
+                        className="hidden md:block xl:p-[5rem] " 
+                    />
                     {/** Hero info */}
                     <div>
-                        <h1 className="text-[35px] font-semibold text-amber-500">Tasty Terpenes in</h1>
-                        <h1 className="text-[90px] leading-[5rem] uppercase text-white font-bold">
+                        <h1 className="text-[27px] lg:text[35px] font-semibold text-amber-500">
+                            Tasty Terpenes in
+                        </h1>
+                        <h1 className="text-[65px] lg:text-[90px] leading-[5rem] uppercase text-white font-bold">
                             Bubbly <br /> Brews
                         </h1>
                         <p className="mt-[.5rem] text-white text-opacity-70 text-[16px]">
