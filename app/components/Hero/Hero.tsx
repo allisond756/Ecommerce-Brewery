@@ -30,8 +30,8 @@ const Hero = () => {
         <Carousel 
             additionalTransfrom={0} 
             arrows={false} 
-            autoPlay={true} 
-            autoPlaySpeed={6000} 
+            // autoPlay={true} 
+            // autoPlaySpeed={6000} 
             centerMode={false}
             infinite
             responsive={responsive}
@@ -42,7 +42,11 @@ const Hero = () => {
             bg-lime-950 clip_path">
                 <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[2rem] mx-auto">
                     {/** Hero Img */}
-                    <Image src={BeerImg1} alt="pint glass filled with beer" className="hidden md:block" />
+                    <Image 
+                        src={BeerImg1} 
+                        alt="pint glass filled with beer" 
+                        className="hidden md:block" 
+                    />
                     {/** Hero info */}
                     <div>
                         <h1 className="text-[35px] font-semibold text-amber-500">Superior Selection of</h1>
