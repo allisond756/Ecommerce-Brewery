@@ -25,7 +25,7 @@ const Reservation = () => {
                                 Quick book by calling:
                             </h1>
                             <h1 className="text-amber-500 text-[30px] font-bold">
-                                +0123 456 7890
+                                +(123)-456-7890
                             </h1>
                         </div>
                     </div>
