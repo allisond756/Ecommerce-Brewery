@@ -36,8 +36,8 @@ const ReservationForm = () => {
             text-[17px] text-white border-[2.2px] border-gray-100" 
         />
         <div className="mt-[2rem] w-[80%] text-center mx-auto">
-          <button className="px-8 py-3 rounded-lg mg-[3rem] text-[16px] w-full bg-amber-500 transition-all
-           duration-200 hover:bg-red-600 text-white">
+          <button className="px-8 py-3 rounded-lg mg-[3rem] text-[16px] w-full bg-orange-700 transition-all
+           duration-200 hover:bg-orange-500 text-white">
             Book Now
           </button>
         </div>
