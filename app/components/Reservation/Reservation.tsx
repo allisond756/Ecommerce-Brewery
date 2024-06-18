@@ -17,14 +17,14 @@ const Reservation = () => {
                         obcaecati quasi cupiditate adipisci fugiat tempora tenetur laboriosam soluta!
                     </p>
                     <div className="flex mt-[2rem] items-center space-x-4">
-                        <div className="w-[3rem] h-[3rem] bg-amber-600 rounded-full flex items-center justify-center flex-col">
+                        <div className="w-[3rem] h-[3rem] bg-amber-500 rounded-full flex items-center justify-center flex-col">
                             <BiPhone className="w-[1.7rem] h-[1.7rem] text-white" />
                         </div>
                         <div>
                             <h1 className="text-[25px] text-white font-semibold">
                                 Quick book by calling:
                             </h1>
-                            <h1 className="text-amber-600 text-[30px] font-bold">
+                            <h1 className="text-amber-500 text-[30px] font-bold">
                                 +0123 456 7890
                             </h1>
                         </div>
