@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiPhone } from "react-icons/bi"
+import ReservationForm from "./ReservationForm"
 
 const Reservation = () => {
     return (
@@ -20,12 +21,17 @@ const Reservation = () => {
                             <BiPhone className="w-[1.7rem] h-[1.7rem] text-white" />
                         </div>
                         <div>
-                            <h1 className="text-[25px] text-white font-semibold">Quick book by calling:</h1>
-                            <h1 className="text-amber-600 text-[30px] font-bold">+0123 456 7890</h1>
+                            <h1 className="text-[25px] text-white font-semibold">
+                                Quick book by calling:
+                            </h1>
+                            <h1 className="text-amber-600 text-[30px] font-bold">
+                                +0123 456 7890
+                            </h1>
                         </div>
                     </div>
                 </div>
                 {/* form */}
+                <ReservationForm />
             </div>
         </div>
     )
