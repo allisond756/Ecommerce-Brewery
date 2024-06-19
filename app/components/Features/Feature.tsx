@@ -16,7 +16,10 @@ const Feature = () => {
             <div className="w-[90%] md:w-[80%] mt-[3rem] md:mt-[5rem] mb-[3rem] mx-auto grid grid-cols-1 
               md:grid-cols-3 lg:grid-cols-3 gap-[3rem] ">
                 {/* card #1 */}
-                <div>
+                <div 
+                    data-aos='fade-left' 
+                    data-aos-anchor-placement='top-center'
+                >
                     <div className="p-6 hover:bg-white rounded-lg transition-all duration-200">
                         <Image src={Img1} alt='beer barrels' className="rounded-3xl"  />
                         <h1 className="mt-[1.5rem] text-center text-[24px] text-black font-semibold">
@@ -28,7 +31,11 @@ const Feature = () => {
                     </div>
                 </div>
                 {/* card #2 */}
-                <div>
+                <div 
+                    data-aos='zoom-in' 
+                    data-delay='200' 
+                    data-aos-anchor-placement='top-center'
+                >
                     <div className="p-6 hover:bg-white rounded-lg transition-all duration-200">
                         <Image src={Img2} alt='beer barrels' className="rounded-3xl"  />
                         <h1 className="mt-[1.5rem] text-nowrap text-center text-[24px] text-black font-semibold">
@@ -40,7 +47,11 @@ const Feature = () => {
                     </div>
                 </div>
                 {/* card #3 */}
-                <div>
+                <div
+                    data-aos='fade-right' 
+                    data-delay='400' 
+                    data-aos-anchor-placement='top-center'
+                >
                     <div className="p-6 hover:bg-white rounded-lg transition-all duration-200">
                         <Image src={Img3} alt='beer barrels' className="rounded-3xl"  />
                         <h1 className="mt-[1.5rem] text-center text-nowrap text-[24px] text-black font-semibold">
