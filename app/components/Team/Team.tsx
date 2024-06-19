@@ -9,21 +9,33 @@ const Team = () => {
             </h1>
             <div className="mt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-[3rem] items-center">
                 {/* team card */}
-                <div>
+                <div
+                    data-aos='fade-right'
+                    data-aos-anchor-placement='top-center'
+                >
+                    {" "}
                     <TeamCard
                         image="/images/brewer-1.jpg"
                         name="John Doe"
                         position="Asst. Brewer"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos='zoom-in'
+                    data-delay='300'
+                    data-aos-anchor-placement='top-center'
+                >
                     <TeamCard
                         image="/images/brewer-2.jpg"
                         name="James Do"
                         position="Asst. Brewer"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos='fade-right'
+                    data-delay='300'
+                    data-aos-anchor-placement='top-center'
+                >
                     <TeamCard
                         image="/images/brewer-3.jpg"
                         name="Jen Dough"
