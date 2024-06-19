@@ -27,19 +27,19 @@ const Footer = () => {
                 {/* footer products */}
                 <div>
                     <h1 className="text-[20px] font-semibold mb-[2rem] text-white">Products</h1>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         Pale Ale
                     </p>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         India Pale Ale
                     </p>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         Double IPA
                     </p>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         Stout
                     </p>
@@ -47,22 +47,38 @@ const Footer = () => {
                 {/* quick links */}
                 <div>
                     <h1 className="text-[20px] font-semibold mb-[2rem] text-white">Quick Links</h1>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         Home
                     </p>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         Shop
                     </p>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         Menu
                     </p>
-                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-amber-500 transition-all 
                      duration-200 cursor-pointer w-fit">
                         Contact
                     </p>
+                </div>
+                {/* hours of op */}
+                <div>
+                    <h1 className="text-[20px] font-semibold mb-[2rem] text-white">
+                        Business Hours
+                    </h1>
+                    <p className="text-white text-[15px]">
+                        Sun -  Thurs: <span className="text-amber-500">11am - 12am</span>
+                    </p>
+                    <p className="text-white text-[15px]">
+                        Fri & Sat: <span className="text-amber-500">11am - 2am</span>
+                    </p>
+                    {/* socials */}
+                    <div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
