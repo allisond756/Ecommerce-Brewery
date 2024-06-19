@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 import { RiBeerFill } from "react-icons/ri"
 
 const Footer = () => {
@@ -14,13 +15,13 @@ const Footer = () => {
                             BismuthBrewing
                         </h1>
                     </div>
-                    <p className="text-white text-opacity-60 mt-[0.4rem]">
+                    <p className="text-white text-opacity-60 mt-[0.4rem] text-[15px]">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
-                    <p className="mt-[1rem] text-white">
-                        support@bismuthbrew.com
+                    <p className="mt-[1rem] text-white text-[15px]">
+                        support@bismuthb.com
                     </p>
-                    <p>
+                    <p className="text-[15px] text-amber-500">
                         +(123)-456-7890
                     </p>
                 </div>
@@ -76,11 +77,18 @@ const Footer = () => {
                         Fri & Sat: <span className="text-amber-500">11am - 2am</span>
                     </p>
                     {/* socials */}
-                    <div>
-                        
+                    <div className="flex mt-[2rem] items-center space-x-6">
+                        <FaFacebook className="w-[1.5rem] h-[1.5rem] text-blue-500" />
+                        <FaInstagram className="w-[1.5rem] h-[1.5rem] text-pink-500"/>
+                        <FaTwitter className="w-[1.5rem] h-[1.5rem] text-blue-300"/>
                     </div>
                 </div>
             </div>
+            {/* copyright */}
+            <p className="text-center text-white opacity-50 mt-[1.5rem]">
+                Copyright &copy; 2024{" "}
+                <span className="text-amber-500">Bismuth Brewing</span>. All rights reserved.
+            </p>
         </div>
     )
 }
