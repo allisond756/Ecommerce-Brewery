@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="pt-[5rem] pb-[3rem] bg-gray-900">
             <div className="w-[80%] pb-[2rem] border-b-[2px] border-b-gray-300 border-opacity-50 mx-auto grid grid-cols-1
-             md:grid-cols-2 lg:grid-cols-4 gap-[3rem] items-center">
+             md:grid-cols-2 lg:grid-cols-4 gap-[3rem] items-start">
                 {/* site logo */}
                 <div>
                     <div className="flex items-center text-white space-x-1">
@@ -23,6 +23,26 @@ const Footer = () => {
                     <p>
                         +(123)-456-7890
                     </p>
+                </div>
+                <div>
+                    <h1 className="text-[23px] font-semibold mb-[2rem] text-white">Products</h1>
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                     duration-200 cursor-pointer w-fit">
+                        Pale Ale
+                    </p>
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                     duration-200 cursor-pointer w-fit">
+                        India Pale Ale
+                    </p>
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                     duration-200 cursor-pointer w-fit">
+                        Double IPA
+                    </p>
+                    <p className="mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all 
+                     duration-200 cursor-pointer w-fit">
+                        Stout
+                    </p>
+                    
                 </div>
             </div>
         </div>
